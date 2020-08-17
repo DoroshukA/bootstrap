@@ -41,13 +41,26 @@ img {
     }
 }
 
-a, :before, :after {
+a, :before, :after, button {
     transition: .2s;
+}
+
+.title {
+    color: #313131;
+    font-family: 'Motserrat-SemiBold', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .header {
     box-shadow: 0 2px 20px #5a5a5a;
     background-color: #5a5a5a;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar-brand {
@@ -112,4 +125,109 @@ a, :before, :after {
 
 .header-phone a{
     display: block;
+}
+
+.offer {
+    background: url(assets/img/bg1.jpg) no-repeat center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.offer p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin: 44px 0;
+}
+
+.main-btn {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    width: 205px;
+
+    background: transparent;
+    border: none;
+    position: relative;
+}
+
+.main-btn:hover {
+    background: #ffe400;
+}
+
+.main-btn:before,
+.main-btn:after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 40%;
+}
+
+.main-btn:before {
+    top: 0;
+    left: 0;
+    border-top: 3px solid #ffe400;
+    border-left: 3px solid #ffe400;
+}
+
+.main-btn:after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 3px solid #ffe400;
+    border-right: 3px solid #ffe400;
+}
+
+.main-btn:hover:before {
+    top: -20px;
+    left: -20px;
+    border-top: 3px solid #000000;
+    border-left: 3px solid #000000;
+    width: 30px;
+    height: 30px;
+}
+
+.main-btn:hover:after {
+    bottom: -20px;
+    right: -20px;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000;
+    width: 30px;
+    height: 30px;
+}
+
+.arrow-bottom {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+
+    animation: arrowbottom 1.5s infinite;
+}
+
+.arrow-bottom a{
+    display: inline-block;
+    padding: 30px;
+    opacity: .5;
+}
+
+.arrow-bottom a:hover {
+    opacity: 1;
+}
+
+@keyframes arrowbottom {
+    0% {
+        bottom: 40px;
+    }
+    50% {
+        bottom: 20px;
+    }
+    100% {
+        bottom: 40px;
+    }
 }
