@@ -41,8 +41,11 @@ img {
     }
 }
 
-a, :before, :after, button {
+a, :before, :after, input, button {
     transition: .2s;
+}
+section {
+    padding: 100px 0;
 }
 
 .title {
@@ -50,6 +53,35 @@ a, :before, :after, button {
     font-family: 'Motserrat-SemiBold', sans-serif;
     font-size: 50px;
     font-weight: 700;
+}
+
+.block-title {
+    position: relative;
+    color: #313131;
+    font-family: 'Motserrat-SemiBold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.block-title.white {
+    color: #ffffff;
+}
+
+.block-title:before,
+.block-title:after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 100%;
+    background: url(assets/img/title-work.png) no-repeat center;
+}
+
+.block-title:after {
+    transform: translateX(20px);
+}
+
+.block-title:before {
+    transform: translateX(-52px);
 }
 
 .header {
@@ -201,6 +233,24 @@ a, :before, :after, button {
     height: 30px;
 }
 
+.main-btn.white {
+    color: #ffffff;
+}
+
+.main-btn.white:hover {
+    color: #000000;
+}
+
+.main-btn.white:hover:before {
+    border-top: 3px solid #ffe400;
+    border-left: 3px solid #ffe400;
+}
+
+.main-btn.white:hover:after {
+    border-bottom: 3px solid #ffe400;
+    border-right: 3px solid #ffe400;
+}
+
 .arrow-bottom {
     position: absolute;
     bottom: 20px;
@@ -231,3 +281,76 @@ a, :before, :after, button {
         bottom: 40px;
     }
 }
+
+.job-wrap {
+    margin-top: 30px;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.job-wrap a {
+    display: block;
+}
+
+.job-wrap:hover {
+    transform: scale(1.1);
+    filter: grayscale(100%);
+    opacity: .8;
+}
+
+.feedback {
+    background: url(assets/img/bg2.jpg);
+    background-size: cover;
+}
+
+.block-subtitle {
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feedback-from {
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.feedback-from p {
+    padding: 20px 0px 40px;
+}
+
+.feedback-from h3 {
+    font-family: 'Motserrat-SemiBold', sans-serif;
+}
+
+.form {
+    color: #dcdcdc;
+    font-size: 16px;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffe400;
+    color: #ffffff;
+    width: 100%;
+
+    margin-bottom: 30px;
+    padding: 5px 10px;
+}
+
+.input:hover,
+.input:focus {
+    opacity: .7;
+}
+
+.feedback .container {
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    bottom: -100px;
+    right: 15px;
+}
+
