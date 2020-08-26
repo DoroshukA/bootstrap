@@ -362,7 +362,41 @@ section {
         border-bottom: none;
         padding: 0;
     }
+    &-body {
+        font-style: italic;
+        font-family: 'Motserrat-SemiBold', sans-serif;
+        text-align:center;
+    }
 
+}
+
+.diploma {
+    width: auto;
+    height: 150px;
+    padding: 20px auto;
+    border: 1px dashed #5a5a5a;
+}
+
+.skill-icon {
+    
+    width: 80px;
+    height: 80px;
+    margin: 20px 25px;
+
+    fill: #f80d7a;
+    
+    animation: as 2.5s infinite;
+}
+
+
+
+@keyframes as {
+    40% {
+        fill: #ffe400;
+    }
+    60% {
+        fill: #000000;
+    }
 }
 
 .contact {
