@@ -68,7 +68,7 @@ section {
   position: absolute;
   width: 32px;
   height: 100%;
-  background: url(../img/title-work.png) no-repeat center;
+  background: url(../img/title-work1.png) no-repeat center;
 }
 .block-title:after {
   transform: translateX(20px);
@@ -91,6 +91,11 @@ section {
   color: #ffffff;
   font-family: "Motserrat-SemiBold", sans-serif;
   font-size: 23px;
+}
+.navbar-brand span {
+  color: #ffe400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
 }
 .navbar-brand:hover {
   opacity: 0.7;
@@ -128,7 +133,6 @@ section {
 .callback {
   color: #ffe400 !important;
   font-size: 12px;
-  letter-spacing: 0.2em;
   font-weight: 400;
   border-bottom: 1px dashed #ffe400;
 }
@@ -211,12 +215,10 @@ section {
 .main-btn.white:hover {
   color: #000000;
 }
-
 .main-btn.white:hover:before {
   border-top: 3px solid #ffe400;
   border-left: 3px solid #ffe400;
 }
-
 .main-btn.white:hover:after {
   border-bottom: 3px solid #ffe400;
   border-right: 3px solid #ffe400;
