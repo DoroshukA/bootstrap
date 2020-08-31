@@ -1,0 +1,13 @@
+.navbar-brand {
+  color: #ffffff;
+  font-family: "Motserrat-SemiBold", sans-serif;
+  font-size: 23px;
+}
+.navbar-brand span {
+  color: #ffe400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+.navbar-brand:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,16 @@
+// main: ../style.scss
+.input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffe400;
+    color: #ffffff;
+    width: 100%;
+
+    margin-bottom: 30px;
+    padding: 5px 10px;
+}
+
+.input:hover,
+.input:focus {
+    opacity: .7;
+}

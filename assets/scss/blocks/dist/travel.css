@@ -1,0 +1,13 @@
+.travel-wrap {
+  margin-top: 30px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.travel-wrap a {
+  display: block;
+}
+.travel-wrap a:hover {
+  transform: scale(1.1);
+  filter: grayscale(100%);
+  opacity: 0.8;
+}

@@ -265,10 +265,6 @@ section {
   opacity: 0.8;
 }
 
-.cv {
-  background: #fafafa;
-}
-
 .feedback {
   background: url(../img/bg2.jpg);
   background-size: cover;
@@ -282,6 +278,16 @@ section {
 }
 .feedback-from h3 {
   font-family: "Motserrat-SemiBold", sans-serif;
+}
+
+.feedback .container {
+  position: relative;
+}
+
+.photo {
+  position: absolute;
+  bottom: -100px;
+  right: 15px;
 }
 
 .block-subtitle {
@@ -309,16 +315,6 @@ section {
 .input:hover,
 .input:focus {
   opacity: 0.7;
-}
-
-.feedback .container {
-  position: relative;
-}
-
-.photo {
-  position: absolute;
-  bottom: -100px;
-  right: 15px;
 }
 
 .accordion {
@@ -432,7 +428,10 @@ section {
   opacity: 0.5;
 }
 
-/* import*/
+.cv {
+  background: #fafafa;
+}
+
 .modal__content {
   padding: 5rem 1rem;
 }
@@ -440,7 +439,7 @@ section {
 .modal__title {
   font-size: 3rem;
   text-transform: uppercase;
-  color: #2b2a2c;
+  color: #000000;
   font-weight: 700;
   text-align: center;
   margin-bottom: 3.6rem;
@@ -480,7 +479,7 @@ section {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: #2b2a2c;
+  background-color: #000000;
   position: absolute;
   top: 0;
   left: 50%;
@@ -501,7 +500,7 @@ section {
 .timeline__title {
   margin-bottom: 2.6rem;
   font-size: 1.2rem;
-  color: #2b2a2c;
+  color: #000000;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -517,19 +516,19 @@ section {
   display: block;
   text-decoration: underline;
   font-size: 0.94rem;
-  color: #2b2a2c;
+  color: #000000;
   margin-bottom: 0.8rem;
 }
 
 .tmeline__suptitle {
   font-size: 1.06rem;
-  color: #2b2a2c;
+  color: #000000;
   font-weight: 700;
 }
 
 .timeline__position {
   font-size: 0.94rem;
-  color: #2b2a2c;
+  color: #000000;
   font-style: italic;
 }
 
@@ -572,4 +571,11 @@ section {
   height: 100%;
   background-color: #313131;
   transition: width 0.2s linear;
+}
+
+.works {
+  background: url(../img/bg3.jpg) no-repeat center;
+  height: 100vh;
+  align-items: center;
+  position: relative;
 }

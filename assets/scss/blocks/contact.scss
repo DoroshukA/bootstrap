@@ -1,0 +1,43 @@
+// main: ../style.scss
+
+.contact {
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+    &-form {
+        padding: 40px 0;
+        button {
+        display: block;
+        margin: 0 auto;
+        }
+    }
+}
+
+.textarea {
+    resize: none;
+    height: 165px;
+}
+
+.social {
+    padding-top: 60px;
+    text-align: center;
+    color: #ffffff;
+    h3 {
+        font-family: 'Motserrat-SemiBold', sans-serif;
+    }
+    &-icons {
+        justify-content: center;
+        display: flex;
+        padding-top: 40px;
+        svg {
+            margin: 0 15px;
+            width: 35px;
+            height: 35px;
+        }
+    }
+    &__icon {
+        fill: #5a5a5a;
+        &:hover {
+            opacity: .5;
+        }
+    }
+}

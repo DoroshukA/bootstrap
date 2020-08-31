@@ -1,0 +1,18 @@
+// main: ../style.scss
+
+.offer {
+    background: url(../img/bg1.jpg) no-repeat center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    p {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    
+        margin: 44px 0;
+    }
+}

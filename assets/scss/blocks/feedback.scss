@@ -1,0 +1,26 @@
+// main: ../style.scss
+
+.feedback {
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+    &-from {
+        color: #ffffff;
+        padding-top: 100px;
+        p {
+            padding: 20px 0px 40px;
+        }
+        h3 {
+            font-family: 'Motserrat-SemiBold', sans-serif;
+        }
+    }
+}
+
+.feedback .container {
+    position: relative;
+}
+
+.photo {
+    position: absolute;
+    bottom: -100px;
+    right: 15px;
+}

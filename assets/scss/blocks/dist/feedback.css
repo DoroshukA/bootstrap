@@ -1,0 +1,24 @@
+.feedback {
+  background: url(../img/bg2.jpg);
+  background-size: cover;
+}
+.feedback-from {
+  color: #ffffff;
+  padding-top: 100px;
+}
+.feedback-from p {
+  padding: 20px 0px 40px;
+}
+.feedback-from h3 {
+  font-family: "Motserrat-SemiBold", sans-serif;
+}
+
+.feedback .container {
+  position: relative;
+}
+
+.photo {
+  position: absolute;
+  bottom: -100px;
+  right: 15px;
+}

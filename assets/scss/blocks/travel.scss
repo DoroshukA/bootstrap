@@ -1,0 +1,16 @@
+// main: ../style.scss
+
+
+.travel-wrap {
+    margin-top: 30px;
+    overflow: hidden;
+    transition: .2s;
+    a {
+        display: block;
+        &:hover {
+            transform: scale(1.1);
+            filter: grayscale(100%);
+            opacity: .8;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+// main: ../style.scss
+.title {
+    color: #313131;
+    font-family: 'Motserrat-SemiBold', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.block-title {
+    position: relative;
+    color: #313131;
+    font-family: 'Motserrat-SemiBold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    &.white {
+        color: #ffffff;
+    }
+    &:before, &:after {
+        content: "";
+        position: absolute;
+        width: 32px;
+        height: 100%;
+        background: url(../img/title-work1.png) no-repeat center;
+    }
+    &:after {
+        transform: translateX(20px);
+    }
+    &:before {
+        transform: translateX(-52px);
+    }
+}

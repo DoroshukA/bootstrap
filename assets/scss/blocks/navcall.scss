@@ -1,0 +1,24 @@
+// main: ../style.scss
+
+.phone {
+    color: #ffffff !important;
+    font-family: 'Motserrat-SemiBold', sans-serif;
+    font-size: 18px;
+}
+
+.callback {
+    color: #ffe400 !important;
+    font-size: 12px;
+    font-weight: 400;
+    border-bottom: 1px dashed #ffe400;
+}
+
+.header-phone {
+    text-align: center;
+    a {
+        display: block;
+        &:hover {
+            opacity: .7;
+        }
+    }
+}

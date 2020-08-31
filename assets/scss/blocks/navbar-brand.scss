@@ -1,0 +1,17 @@
+// main: ../style.scss
+
+
+.navbar-brand {
+    color: #ffffff;
+    font-family: 'Motserrat-SemiBold', sans-serif;
+    font-size: 23px;
+    span {
+        color: #ffe400;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+    &:hover {
+        opacity: .7;
+    }
+    
+}
