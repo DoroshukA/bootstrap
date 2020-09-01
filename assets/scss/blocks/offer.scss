@@ -16,3 +16,24 @@
         margin: 44px 0;
     }
 }
+
+@media (max-width: 760px) {
+    .offer {
+        
+        p {
+            font-size: 16px;
+        
+            margin: 34px 20px;
+        }
+    }
+}
+@media (max-width: 414px) {
+    .offer {
+        
+        p {
+        
+            margin: 144px 40px;
+            font-size: 20px;
+        }
+    }
+}

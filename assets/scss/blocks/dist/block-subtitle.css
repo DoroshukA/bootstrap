@@ -1,6 +1,13 @@
 .block-subtitle {
   color: #ffffff;
-  font-size: 26px;
+  font-size: 20px;
   text-align: center;
   margin-top: 20px;
+}
+
+@media (max-width: 414px) {
+  .block-subtitle {
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }

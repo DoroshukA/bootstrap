@@ -22,3 +22,55 @@
   bottom: -100px;
   right: 15px;
 }
+
+@media (max-width: 990px) {
+  .photo {
+    width: 350px;
+    right: 0px;
+  }
+
+  .feedback-from {
+    padding-top: 40px;
+  }
+  .feedback-from input {
+    width: 50%;
+  }
+}
+@media (max-width: 760px) {
+  .photo {
+    width: 280px;
+  }
+}
+@media (max-width: 520px) {
+  .photo {
+    width: 230px;
+  }
+
+  .feedback-from {
+    padding-top: 50px;
+  }
+  .feedback-from p {
+    padding: 10px 0px 20px;
+    font-size: 14px;
+  }
+  .feedback-from h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .photo {
+    width: 190px;
+  }
+
+  .feedback-from {
+    padding-top: 30px;
+  }
+  .feedback-from p {
+    padding: 10px 0px 20px;
+    font-size: 14px;
+    width: 80%;
+  }
+  .feedback-from h3 {
+    font-size: 20px;
+  }
+}

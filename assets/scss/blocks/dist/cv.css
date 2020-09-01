@@ -1,6 +1,9 @@
 .cv {
   background: #fafafa;
 }
+.cv a {
+  margin-top: 40px;
+}
 
 .modal__content {
   padding: 5rem 1rem;
@@ -141,4 +144,77 @@
   height: 100%;
   background-color: #313131;
   transition: width 0.2s linear;
+}
+
+@media (max-width: 760px) {
+  .timeline__date {
+    font-size: 0.88rem;
+  }
+
+  .progress--bar__title {
+    font-size: 0.8rem;
+  }
+
+  .progress--bar__bar {
+    width: 80px;
+  }
+
+  .timeline__col--left {
+    text-align: right;
+    padding-right: 2.2rem;
+  }
+  .timeline__col--right {
+    padding-left: 2.2rem;
+  }
+
+  .timeline__title {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 520px) {
+  .tmeline__suptitle {
+    font-size: 0.8rem;
+  }
+
+  .timeline__position {
+    font-size: 0.7rem;
+  }
+
+  .timeline__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .timeline__date {
+    font-size: 0.66rem;
+  }
+
+  .timeline__text {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+
+  .timeline__col--left {
+    text-align: right;
+    padding-right: 1.8rem;
+  }
+  .timeline__col--right {
+    padding-left: 1.8rem;
+  }
+
+  .progress--bar__title {
+    font-size: 0.6rem;
+  }
+
+  .progress--bar__right {
+    padding-right: 2.2rem;
+  }
+
+  .progress--bar__bar {
+    width: 60px;
+  }
+
+  .timeline__text .diploma {
+    width: 50%;
+    height: 50%;
+  }
 }

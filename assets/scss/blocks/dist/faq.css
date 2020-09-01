@@ -67,3 +67,27 @@
     fill: #000000;
   }
 }
+@media (max-width: 990px) {
+  .diploma {
+    margin: 5px 3px;
+  }
+}
+@media (max-width: 414px) {
+  .accordion {
+    margin-top: 30px;
+  }
+
+  .faq-link {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .card-body {
+    padding: 5px 10px 20px 10px;
+    font-size: 14px;
+  }
+
+  .faq {
+    padding-bottom: 10px;
+  }
+}

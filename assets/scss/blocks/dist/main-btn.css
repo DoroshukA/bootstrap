@@ -1,7 +1,7 @@
 .main-btn {
   color: #000000;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 50px;
   width: 205px;
   background: transparent;
@@ -58,4 +58,23 @@
 .main-btn.white:hover:after {
   border-bottom: 3px solid #ffe400;
   border-right: 3px solid #ffe400;
+}
+
+@media (max-width: 990px) {
+  .main-btn {
+    margin: 0 40px;
+  }
+}
+@media (max-width: 760px) {
+  .main-btn {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 520px) {
+  .main-btn {
+    font-size: 14px;
+    line-height: 40px;
+    width: 150px;
+    letter-spacing: 0.03em;
+  }
 }

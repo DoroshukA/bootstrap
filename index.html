@@ -13,7 +13,7 @@
     <title>Doroshuk</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
     <!--Sprite-->
     <svg style="display: none;">
 
@@ -104,7 +104,7 @@
     </svg>
     <header class="header">
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
 
             <div class="container">
 
@@ -118,23 +118,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item">
-                            <a href="#">Обо мне</a>
+                            <a href="#about">Обо мне</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Мои работы</a>
+                            <a href="#works">Мои работы</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Резюме</a>
+                            <a href="#cv">Резюме</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Контакты</a>
+                            <a href="#contact">Контакты</a>
                         </li>
 
                     </ul>
 
                     <div class="header-phone">
                         <a href="tel:+380504745600" class="phone">+38 050 47 45 600</a>
-                        <a href="#" class="callback">заказать обратный звонок</a>
+                        <a href="#callback" class="callback">заказать обратный звонок</a>
                     </div>
                 </div>
 
@@ -156,19 +156,19 @@
                 Ошибаюсь редко<br>
                 Люблю порядок
             </p>
-            <button class="main-btn" type="button">СРАЗУ К ДЕЛУ</button>
+            <a class="main-btn text-center" type="button" href="#cv" >СРАЗУ К ДЕЛУ</a>
         </div>
         <!--/container-->
 
         <div class="arrow-bottom">
-            <a href="#">
+            <a href="#works">
                 <img src="assets/img/arrow-btm.png" alt="arrow-bottom">
             </a>
         </div>
         <!--/arrow-bottom-->
     </section>
     <!--/sction offer-->
-    <section class="works">
+    <section id="works"  class="works" >
         <div class="container">
             <h2 class="block-title">Мои работы</h2>
             <div class="row">
@@ -207,81 +207,14 @@
     </section>
     <!--/sction works-->
 
-    <section class="travel">
-        <div class="container">
-            <h2 class="block-title">Путешествие - это Я</h2>
+    
 
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="travel-wrap">
-                        <a href="assets/img/gallery/1.jpg" data-fancybox="gallery">
-                            <img src="assets/img/gallery/1.jpg" alt="travel-img">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="travel-wrap">
-                        <a href="assets/img/gallery/2.jpg" data-fancybox="gallery">
-                            <img src="assets/img/gallery/2.jpg" alt="travel-img">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="travel-wrap">
-                        <a href="assets/img/gallery/3.jpg" data-fancybox="gallery">
-                            <img src="assets/img/gallery/3.jpg" alt="travel-img">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="travel-wrap">
-                        <a href="assets/img/gallery/4.jpg" data-fancybox="gallery">
-                            <img src="assets/img/gallery/4.jpg" alt="travel-img">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="travel-wrap">
-                        <a href="assets/img/gallery/5.jpg" data-fancybox="gallery">
-                            <img src="assets/img/gallery/5.jpg" alt="travel-img">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="travel-wrap">
-                        <a href="assets/img/gallery/6.jpg" data-fancybox="gallery">
-                            <img src="assets/img/gallery/6.jpg" alt="travel-img">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="travel-wrap">
-                        <a href="assets/img/gallery/7.jpg" data-fancybox="gallery">
-                            <img src="assets/img/gallery/7.jpg" alt="travel-img">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="travel-wrap">
-                        <a href="assets/img/gallery/8.jpg" data-fancybox="gallery">
-                            <img src="assets/img/gallery/8.jpg" alt="travel-img">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!--/row-->
-
-        </div>
-        <!--/container-->
-    </section>
-    <!--/travel-->
-
-    <section class="cv">
+    <section id="cv" class="cv">
         <div class="container">
             <h2 class="block-title">Резюме</h2>
 
             <div class="text-center">
-                <a class="btn btn--thin"href="#">Download CV</a>
+                <a class="main-btn text-center" type="button" href="#">Download CV</a>
             </div>
 
             <div class="timeline">
@@ -483,7 +416,7 @@
     <!--/cv-->
 
 
-    <section class="feedback">
+    <section  id="callback" class="feedback">
         <div class="container">
             <h2 class="block-title white">Нет, ну хочешь, я позвоню</h2>
             <h3 class="block-subtitle">можт чего нового узнаешь:)</h3>
@@ -492,13 +425,13 @@
                 <div class="offset-lg-2 col-lg-4">
 
                     <form class="form feedback-from">
-                        <h3>Отзвоню, отпишу - счет пополнил</h3>
+                        <h3>Отзвоню, отпишу <small>- счет пополнил</small></h3>
                         <p>
                             Напиши свой номер. Все просто!
                         </p>
                         <input type="text" placeholder="Как величать тебя" class="input">
                         <input type="text" placeholder="Номер телефона" class="input">
-
+<br>
                         <button class="main-btn white" type="submit">Полетело</button>
 
                     </form>
@@ -507,14 +440,17 @@
             </div>
             <!--/row-->
 
-            <img src="assets/img/photo.png" alt="photo" class="photo">
+            <div class="photo">
+                <img src="assets/img/photo.png" alt="photo">
+            </div>
+            
 
         </div>
         <!--/container-->
     </section>
     <!--/feedback-->
 
-    <section class="faq">
+    <section id="about" class="faq">
         <div class="container">
             <h2 class="block-title">Мой путь</h2>
 
@@ -626,29 +562,99 @@
     </section>
     <!--/faq-->
 
-    <section class="contact">
+
+    <section class="travel">
         <div class="container">
-            <h2 class="block-title white">Contact us</h2>
+            <h2 class="block-title">А еще я путешествую</h2>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="travel-wrap">
+                        <a href="assets/img/gallery/1.jpg" data-fancybox="gallery">
+                            <img src="assets/img/gallery/1.jpg" alt="travel-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="travel-wrap">
+                        <a href="assets/img/gallery/2.jpg" data-fancybox="gallery">
+                            <img src="assets/img/gallery/2.jpg" alt="travel-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="travel-wrap">
+                        <a href="assets/img/gallery/3.jpg" data-fancybox="gallery">
+                            <img src="assets/img/gallery/3.jpg" alt="travel-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="travel-wrap">
+                        <a href="assets/img/gallery/4.jpg" data-fancybox="gallery">
+                            <img src="assets/img/gallery/4.jpg" alt="travel-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="travel-wrap">
+                        <a href="assets/img/gallery/5.jpg" data-fancybox="gallery">
+                            <img src="assets/img/gallery/5.jpg" alt="travel-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="travel-wrap">
+                        <a href="assets/img/gallery/6.jpg" data-fancybox="gallery">
+                            <img src="assets/img/gallery/6.jpg" alt="travel-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="travel-wrap">
+                        <a href="assets/img/gallery/7.jpg" data-fancybox="gallery">
+                            <img src="assets/img/gallery/7.jpg" alt="travel-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="travel-wrap">
+                        <a href="assets/img/gallery/8.jpg" data-fancybox="gallery">
+                            <img src="assets/img/gallery/8.jpg" alt="travel-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--/row-->
+
+        </div>
+        <!--/container-->
+    </section>
+    <!--/travel-->
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="block-title white">Контакты</h2>
             <form class="form contact-form">
                 <p class="text-center">
-                    Any messages are welcome
+                    Да прям, все что угодно
                 </p>
                 <div class="row justify-content-center">
                     <div class="col-lg-4">
-                        <input type="text" placeholder="Name" class="input">
-                        <input type="text" placeholder="Phone number" class="input">
+                        <input type="text" placeholder="Имя" class="input">
+                        <input type="text" placeholder="Номер телефона" class="input">
                         <input type="text" placeholder="Mail" class="input">
                     </div>
                     <div class="col-lg-4">
-                        <textarea placeholder="Your massege" class="input textarea"></textarea>
+                        <textarea placeholder="Твое письмо" class="input textarea"></textarea>
                     </div>
 
                 </div><!--/row-->
-                <button class="main-btn white" type="submit">SEND</button>
+                <button class="main-btn white" type="submit">Полетело</button>
             </form>
 
             <div class="social">
-                <h3>Follow us:</h3>
+                <h3>Follow me:</h3>
                 <div class="social-icons">
                     <a href="#"  target="blank" >
                         <svg class="social__icon">
