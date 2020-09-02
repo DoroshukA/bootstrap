@@ -54,3 +54,19 @@
     font-size: 20px;
   }
 }
+@media (max-width: 320px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .block-title:before, .block-title:after {
+    width: 32px;
+    height: 100%;
+  }
+  .block-title:after {
+    transform: translateX(10px);
+  }
+  .block-title:before {
+    transform: translateX(-42px);
+  }
+}

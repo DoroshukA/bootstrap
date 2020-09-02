@@ -102,6 +102,22 @@ section {
     font-size: 20px;
   }
 }
+@media (max-width: 320px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .block-title:before, .block-title:after {
+    width: 32px;
+    height: 100%;
+  }
+  .block-title:after {
+    transform: translateX(10px);
+  }
+  .block-title:before {
+    transform: translateX(-42px);
+  }
+}
 .header {
   box-shadow: 0 2px 20px #5a5a5a;
   background-color: #5a5a5a;
@@ -126,6 +142,22 @@ section {
   opacity: 0.7;
 }
 
+@media (max-width: 375px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .navbar-brand span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+  .navbar-brand span {
+    font-size: 14px;
+  }
+}
 .nav-item a {
   color: #ffffff;
   font-size: 16px;
@@ -197,6 +229,18 @@ section {
   .offer p {
     margin: 144px 40px;
     font-size: 20px;
+  }
+}
+@media (max-width: 375px) {
+  .offer p {
+    margin: 124px 40px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .offer p {
+    margin: 64px 40px;
+    font-size: 14px;
   }
 }
 .main-btn {
@@ -277,6 +321,11 @@ section {
     line-height: 40px;
     width: 150px;
     letter-spacing: 0.03em;
+  }
+}
+@media (max-width: 375px) {
+  .main-btn {
+    margin: 0 20px;
   }
 }
 .arrow-bottom {
@@ -412,6 +461,20 @@ section {
   .block-subtitle {
     font-size: 14px;
     margin-top: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .block-subtitle {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .block-subtitle {
+    font-size: 12px;
   }
 }
 .form {

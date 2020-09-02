@@ -29,11 +29,25 @@
 }
 @media (max-width: 414px) {
     .offer {
-        
         p {
-        
             margin: 144px 40px;
             font-size: 20px;
+        }
+    }
+}
+@media (max-width: 375px) {
+    .offer {
+        p {
+            margin: 124px 40px;
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .offer {
+        p {
+            margin: 64px 40px;
+            font-size: 14px;
         }
     }
 }

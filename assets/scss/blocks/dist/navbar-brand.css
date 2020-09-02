@@ -11,3 +11,20 @@
 .navbar-brand:hover {
   opacity: 0.7;
 }
+
+@media (max-width: 375px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .navbar-brand span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+  .navbar-brand span {
+    font-size: 14px;
+  }
+}
